@@ -1,0 +1,29 @@
+{
+  "name": "server_test",
+  "version": "1.0.0",
+  "description": "test server using express and node",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "jest",
+    "watch": "tsc -w",
+    "dev": "nodemon .\\dist\\src\\index.js"
+  },
+  "keywords": [],
+  "author": "Mike Tanchuk",
+  "license": "ISC",
+  "dependencies": {
+    "@types/jest": "^29.4.0",
+    "@types/supertest": "^2.0.12",
+    "express": "^4.18.2",
+    "jest": "^29.5.0",
+    "supertest": "^6.3.3",
+    "ts-jest": "^29.0.5"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/node": "^18.14.6",
+    "nodemon": "^2.0.21",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.5"
+  }
+}
